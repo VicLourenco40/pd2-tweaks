@@ -1,0 +1,7 @@
+{
+  "name" : "PD2 Tweaks",
+  "description" : "",
+  "author" : "VicLourenco",
+  "contact" : "github.com/VicLourenco40",
+  "version" : ""
+}
