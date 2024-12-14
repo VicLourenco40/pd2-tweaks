@@ -3,5 +3,11 @@
   "description" : "",
   "author" : "VicLourenco",
   "contact" : "github.com/VicLourenco40",
-  "version" : ""
+  "version" : "",
+  "hooks" : [
+    {
+      "hook_id" : "lib/units/beings/player/playercamera",
+      "script_path" : "lua/playercamera.lua"
+    }
+  ]
 }
