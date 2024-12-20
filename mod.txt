@@ -17,5 +17,16 @@
       "hook_id" : "lib/managers/hudmanagerpd2",
       "script_path" : "lua/hudmanagerpd2.lua"
     }
+  ],
+  "keybinds" : [
+    {
+      "keybind_id" : "toggle_ads_crosshair",
+      "name" : "Toggle ADS Crosshair",
+      "description" : "",
+      "script_path" : "lua/toggle-ads-crosshair.lua",
+      "run_in_menu" : false,
+      "run_in_game" : true,
+      "localized" : false
+    }
   ]
 }
