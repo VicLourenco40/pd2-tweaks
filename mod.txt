@@ -6,16 +6,20 @@
   "version" : "",
   "hooks" : [
     {
+      "hook_id" : "lib/managers/hudmanagerpd2",
+      "script_path" : "lua/hudmanagerpd2.lua"
+    },
+    {
+      "hook_id" : "lib/managers/menumanager",
+      "script_path" : "lua/menumanager.lua"
+    },
+    {
       "hook_id" : "lib/units/beings/player/playercamera",
       "script_path" : "lua/playercamera.lua"
     },
     {
       "hook_id" : "lib/units/beings/player/states/playercarry",
       "script_path" : "lua/playercarry.lua"
-    },
-    {
-      "hook_id" : "lib/managers/hudmanagerpd2",
-      "script_path" : "lua/hudmanagerpd2.lua"
     }
   ],
   "keybinds" : [
