@@ -1,3 +1,27 @@
+Hooks:OverrideFunction(MenuManager, "toggle_chatinput", function(self)
+    if Application:editor() then
+        return
+    end
+
+    if SystemInfo:platform() ~= Idstring("WIN32") then
+        return
+    end
+
+    if self:active_menu() then
+        return
+    end
+
+    if not managers.network:session() then
+        return
+    end
+
+    if managers.hud then
+        managers.hud:toggle_chatinput()
+
+        return true
+    end
+end)
+
 Hooks:PreHook(MenuOptionInitiator, "modify_adv_video", "modify_adv_video_pd2_tweaks_pre", function(self, node)
     local fov_multiplier = node:item("fov_multiplier")
 
