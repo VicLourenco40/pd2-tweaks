@@ -6,6 +6,14 @@
   "version" : "",
   "hooks" : [
     {
+      "hook_id" : "lib/managers/enemymanager",
+      "script_path" : "lua/enemymanager.lua"
+    },
+    {
+      "hook_id" : "lib/managers/gameplaycentralmanager",
+      "script_path" : "lua/gameplaycentralmanager.lua"
+    },
+    {
       "hook_id" : "lib/managers/hudmanagerpd2",
       "script_path" : "lua/hudmanagerpd2.lua"
     },
@@ -20,6 +28,10 @@
     {
       "hook_id" : "lib/units/beings/player/states/playercarry",
       "script_path" : "lua/playercarry.lua"
+    },
+    {
+      "hook_id" : "lib/units/enemies/cop/copdamage",
+      "script_path" : "lua/copdamage.lua"
     }
   ],
   "keybinds" : [
