@@ -1,17 +1,5 @@
-Hooks:OverrideFunction(MenuManager, "toggle_chatinput", function(self)
-    if Application:editor() then
-        return
-    end
-
-    if SystemInfo:platform() ~= Idstring("WIN32") then
-        return
-    end
-
+Hooks:PostHook(MenuManager, "toggle_chatinput", "toggle_chatinput_pd2_tweaks_post", function(self)
     if self:active_menu() then
-        return
-    end
-
-    if not managers.network:session() then
         return
     end
 
