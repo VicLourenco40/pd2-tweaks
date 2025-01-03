@@ -56,6 +56,15 @@
   ],
   "keybinds" : [
     {
+      "keybind_id" : "toggle_crosshair",
+      "name" : "Toggle Crosshair",
+      "description" : "",
+      "script_path" : "lua/toggle-crosshair.lua",
+      "run_in_menu" : false,
+      "run_in_game" : true,
+      "localized" : false
+    },
+    {
       "keybind_id" : "toggle_ads_crosshair",
       "name" : "Toggle ADS Crosshair",
       "description" : "",
