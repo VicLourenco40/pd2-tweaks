@@ -26,6 +26,10 @@
       "script_path" : "lua/votemanager.lua"
     },
     {
+      "hook_id" : "lib/managers/menu/menuscenemanager",
+      "script_path" : "lua/menuscenemanager.lua"
+    },
+    {
       "hook_id" : "lib/managers/menu/multiprofileitemgui",
       "script_path" : "lua/multiprofileitemgui.lua"
     },
