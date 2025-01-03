@@ -55,6 +55,15 @@
       "run_in_menu" : false,
       "run_in_game" : true,
       "localized" : false
+    },
+    {
+      "keybind_id" : "whistle",
+      "name" : "Whistle",
+      "description" : "",
+      "script_path" : "lua/whistle.lua",
+      "run_in_menu" : false,
+      "run_in_game" : true,
+      "localized" : false
     }
   ]
 }
