@@ -1,4 +1,4 @@
-Hooks:PostHook(MenuManager, "toggle_chatinput", "toggle_chatinput_pd2_tweaks_post", function(self)
+Hooks:OverrideFunction(MenuManager, "toggle_chatinput", function(self)
     if self:active_menu() then
         return
     end
